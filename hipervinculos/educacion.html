@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<title>Hoja de vida Israel Carrión</title>
+	<meta charset="utf-8">
 </head>
 	<img height="80px" src="../img/logo.svg">
 	<h1>Hoja de vida</h1>
@@ -39,7 +40,7 @@
 			
 			<form>
 				<p>Año: 
-					<input list="Año" name="list">
+					<input list="Año" name="list" required>
 					<datalist id="Año">
 					    <option label="2016" value="2016">
 					    <option label="2017" value="2017">
@@ -47,10 +48,10 @@
 					</datalist>
 				</p>
 				<p>Institución: 
-					<input type="text" name="Institución" placeholder="Ingrese la Institución">
+					<input type="text" name="Institución" placeholder="Ej. NIST" required>
 				</p>
 				<p>Lugar: 
-					<input type="text" name="Lugar" placeholder="Ingrese el lugar">
+					<input type="text" name="Lugar" placeholder="Ej. Bogotá" required>
 				</p>
 				<p>
 					<input type="submit" name="Enviar">
